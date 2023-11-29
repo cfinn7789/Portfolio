@@ -11,15 +11,6 @@ function Navigation() {
     <ul className="links justify-content-end">
       <li className="link">
         <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-          style={linkStyle}
-        >
-          Finn
-        </Link>
-      </li>
-      <li className="link">
-        <Link
           to="/About"
           className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
           style={linkStyle}
