@@ -6,6 +6,7 @@ export default function Contact() {
           <a href="tel:+689-247-7666">689-247-7666</a>
           <a href="mailto:cfinn7789@gmail.com">cfinn7789@gmail.com</a>
           <a href="https://github.com/cfinn7789">My Github</a>
+          <a href="https://www.linkedin.com/in/chelsey-finn-05ab71270/">LinkedIn</a>
         </div>
     </div>
   );
