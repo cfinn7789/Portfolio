@@ -4,16 +4,16 @@ export default function Resume() {
     return (
       <div>
         <h1 className="title">Resume</h1>
-        <a href={resume} rel="doc">Resume</a>
-        <img src="./images/old-resume.png" className="image"></img>
+          <a href={resume} rel="doc">Resume</a>
+            <img src="./images/old-resume.png" className="image"></img>
         <h1 className="title">Front-end Proficiencies</h1>
-        <p>
-          HTML5, CSS, Javascript, JQuery, Bootstrap, AJAX, SASS
-        </p>
+          <p>
+            HTML5, CSS, Javascript, JQuery, Bootstrap, AJAX, SASS
+          </p>
         <h1 className="title">Back-end Proficiencies</h1>
-        <p>
-          MySQL, MongoDB, Express, ReactJS, Node, Handlebars
-        </p>
+          <p>
+            MySQL, MongoDB, Express, ReactJS, Node, Handlebars
+          </p>
       </div>
     );
   }
