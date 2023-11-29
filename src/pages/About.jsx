@@ -1,4 +1,4 @@
-// import me from '../../images/Snapchat-1705161328.jpg';
+import me from '../../images/ChelseyFinn.jpg';
 
 export default function About() {
     return (
