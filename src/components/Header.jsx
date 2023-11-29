@@ -6,7 +6,9 @@ function Header() {
 
   return (
     <div className="banner-image">
-      <a className="navbar-brand">Finn</a>
+      <nav>
+        <Link to="/">Finn</Link>
+      </nav>
         <Navigation />
     </div>
   );
