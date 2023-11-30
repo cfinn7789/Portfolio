@@ -7,9 +7,9 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
   return (
-    <div className="contact-info">
+    <div className="contact-box">
       <h1 className="title">Contact Me</h1>
-        <div className="my-contact">
+        <div className="contact-info">
           <a href="tel:+689-247-7666">
             <FontAwesomeIcon icon={faPhone} />
           </a>

@@ -8,7 +8,7 @@ function Navigation() {
   };
 
   return (
-    <ul className="links justify-content-end">
+    <ul className="links">
       <li className="link">
         <Link
           to="/About"
