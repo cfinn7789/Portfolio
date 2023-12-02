@@ -29,15 +29,6 @@ function Navigation() {
       </li>
       <li className="link">
         <Link
-          to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-          style={linkStyle}
-        >
-          Contact
-        </Link>
-      </li>
-      <li className="link">
-        <Link
           to="/Resume"
           className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
           style={linkStyle}
