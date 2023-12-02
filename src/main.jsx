@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+import 'bulma/css/bulma.css'
 import './App.css';
 
 import App from './App';

@@ -4,7 +4,7 @@ export default function About() {
     return (
       <div>
         <h1 className="title">Chelsey Finn</h1>
-          <figure class="profile">
+          <figure class="image">
             <img src={me}></img>
           </figure>
         <p>

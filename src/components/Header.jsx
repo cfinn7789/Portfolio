@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <div className="banner-image">
-      <nav>
+      <nav className="navbar-brand">
         <Link to="/">Finn</Link>
       </nav>
         <Navigation />
