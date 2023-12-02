@@ -107,3 +107,13 @@
     margin-left: 70px;
     align-items: center;
   }
+
+  .image {
+    width: 200px; /* Set the initial width */
+    height: auto; /* Maintain aspect ratio */
+    transition: width 0.3s ease; /* Add a smooth transition effect */
+}
+
+.image:hover {
+    width: 250px; /* Set the expanded width on hover */
+}

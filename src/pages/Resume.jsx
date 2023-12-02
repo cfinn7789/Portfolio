@@ -3,9 +3,9 @@ const resume = 'https://docs.google.com/document/d/1I6_qJyn75xBeLA7Iezbl0GAeSkNa
 export default function Resume() {
     return (
       <div>
-        <h1 className="title">Resume</h1>
-          <a href={resume} rel="doc">Resume</a>
-            <img src="./images/old-resume.png" className="image"></img>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+                <img src="./images/resume-preview.png" className="image" alt="Resume Preview" />
+            </a>
         <h1 className="title">Front-end Proficiencies</h1>
           <p>
             HTML5, CSS, Javascript, JQuery, Bootstrap, AJAX, SASS
