@@ -10,16 +10,16 @@ function Footer() {
     <div className="footer-box">
       <div className="contact-info">
         <a href="tel:+689-247-7666">
-          <FontAwesomeIcon icon={faPhone} />
+          <FontAwesomeIcon icon={faPhone} size="2x" />
         </a>
         <a href="mailto:cfinn7789@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
         <a href="https://github.com/cfinn7789">
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a href="https://www.linkedin.com/in/chelsey-finn-05ab71270/">
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
       </div>
     </div>
