@@ -126,7 +126,7 @@
 }
 
 .image:hover {
-    width: 250px; /* Set the expanded width on hover */
+    width: 250px;
 }
 
 .image-box {
@@ -137,5 +137,5 @@
 
 .image-box:hover {
   -webkit-filter: opacity(.7);
-   filter: opacity(.7);
+  filter: opacity(.7);
 }
