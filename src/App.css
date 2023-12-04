@@ -86,6 +86,8 @@
 
   p {
     text-align: center;
+    font-size: larger;
+    margin: 20px;
   }
   
   li {
