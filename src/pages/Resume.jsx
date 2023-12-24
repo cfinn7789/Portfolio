@@ -4,7 +4,7 @@ export default function Resume() {
     return (
       <div className="resume-container">
           <a href={resume} target="_blank" rel="noopener noreferrer">
-                <img src="./images/resume-preview.png" className="image" alt="Resume Preview" />
+                <img src="./images/Resume-preview.jpg" className="image" alt="Resume Preview" />
             </a>
         <h1 className="title">Front-end Proficiencies</h1>
           <p>
