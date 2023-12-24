@@ -143,13 +143,13 @@
     margin: 10px;
   }
 
-.image-box {
+.project {
   width: auto;
   height: auto;
   transition: width 0.3s ease;
 }
 
-.image-box:hover {
+.project:hover {
   -webkit-filter: opacity(.7);
   filter: opacity(.7);
 }
