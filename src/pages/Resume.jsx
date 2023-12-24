@@ -1,10 +1,12 @@
+import cv from '../../images/Resume-preview.jpg';
+
 const resume = 'https://docs.google.com/document/d/1I6_qJyn75xBeLA7Iezbl0GAeSkNao2ajN4pE0Fyk53Q/edit?usp=sharing';
 
 export default function Resume() {
     return (
       <div className="resume-container">
           <a href={resume} target="_blank" rel="noopener noreferrer">
-                <img src="./images/Resume-preview.jpg" className="image" alt="Resume Preview" />
+                <img src={cv} className="image" alt="Resume Preview" />
             </a>
         <h1 className="title">Front-end Proficiencies</h1>
           <p>
