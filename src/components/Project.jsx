@@ -1,5 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
 
+import pjt from '../../images/SoundQuest.jpg';
+import pjt2 from '../../images/02-portfolio-1.jpg';
+import pjt3 from '../../images/localhost_3000_.jpg';
+
 function Project() {
   const currentPage = useLocation().pathname;
 
@@ -8,19 +12,19 @@ function Project() {
         <div className="image-container">
             <div className="image-box">
                 <a className="project" href="https://holdenmg.github.io/sound-quest/">
-                    <img src="../../images/SoundQuest.jpg" width="50%"></img>
+                    <img src={pjt} width="50%"></img>
                 </a>
             </div>
 
             <div className="image-box">
                 <a className="project" href="https://shrouded-springs-93967-4ef63984c8fc.herokuapp.com/">
-                    <img src="../../images/02-portfolio-1.jpg" width="50%"></img>
+                    <img src={pjt2} width="50%"></img>
                 </a>
             </div>
 
             <div className="image-box">
                 <a className="project" href="https://github.com/jeseh7/igr">
-                    <img src="../../images/localhost_3000_.jpg" width="50%"></img>
+                    <img src={pjt3} width="50%"></img>
                 </a>
             </div>
 
