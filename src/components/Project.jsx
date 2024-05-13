@@ -12,19 +12,19 @@ function Project() {
         <div className="image-container">
             <div className="image-box">
                 <a className="project" href="https://holdenmg.github.io/sound-quest/">
-                    <img src={pjt} width="50%"></img>
+                    <img src={pjt} width="50%" className="image"></img>
                 </a>
             </div>
 
             <div className="image-box">
                 <a className="project" href="https://shrouded-springs-93967-4ef63984c8fc.herokuapp.com/">
-                    <img src={pjt2} width="50%"></img>
+                    <img src={pjt2} width="50%" className="image"></img>
                 </a>
             </div>
 
             <div className="image-box">
                 <a className="project" href="https://github.com/jeseh7/igr">
-                    <img src={pjt3} width="50%"></img>
+                    <img src={pjt3} width="50%" className="image"></img>
                 </a>
             </div>
 
