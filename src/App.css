@@ -75,14 +75,27 @@
     height: auto;
   }
 
+  .title {
+    justify-content: center;
+  }
+
   .image-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     margin-top: 5px;
+    align-items: center;
   }
+
+  .image-box {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.descr {
+  text-wrap: balance;
+  margin: 100px;
+}
 
   .resume-container {
     display: flex;
@@ -91,6 +104,15 @@
     justify-content: center;
     text-align: center;
     margin-top: 5px;
+  }
+
+  .project-image {
+    width: 500px;
+    transition: width 0.3s ease;
+  }
+
+  .project-image:hover {
+    width: 550px;
   }
 
   .image {
